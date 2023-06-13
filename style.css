@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;400&display=swap');
+
+.container{
+    width: 1000px;
+
+
+    margin: 0 auto;
+
+}
+
+.first_block{
+    
+    width: 1440px;
+    height: 2377px;
+
+}
+
+.head{
+    background: #005591;
+    width: 1440px;
+    height: 200px;
+
+
+}
+
+.header_menu{
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+
+    margin-top: -120px;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.header_box{
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
+
+}
+
+
+
+.center{
+
+    color: #ffffff;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 88px;
+    
+}
+
+.filtr{
+width: 100%;
+height: 250px;
+border: 1px solid black;
+margin-top: 73px;
+}
+
+.zagolovok{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+
+}
+
+.predlog{
+    height: 350px;
+display: grid;
+grid-template-columns: repeat(3, 30%);
+row-gap:  10%;
+justify-content: space-between;
+align-content: space-between;
+}
+
+@media (max-width: 310px){
+.predlog{
+    height: 500px;
+display: grid;
+grid-template-columns: repeat(2, 30%);
+row-gap:  10%;
+justify-content: space-between;
+align-content: space-between;}
+}
+
+.box{
+    border: 1px solid rgb(212, 26, 26);
+   
+width: 300px;
+height: 150px;
+border-radius: 20px;
+
+}
+
+button{
+    width: 220px;
+    height: 50px; 
+    color: black;
+    font-weight: bold;
+    font-size: 20px;  
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+}
+
+.stroka{
+    height: max-content;    
+}
+
+
+.down{
+
+    margin-top: 80px;
+    background: #DFE2E9;
+    width: 1440px;
+    height: 340px;
+
+}
+
+.servic{
+    width: 1000px;
+  
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.zag{
+    margin-top: 40px;
+
+}
+
+.boxtext{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.down1{
+
+
+    background: #005591;
+    width: 1440px;
+    height: 340px;
+}
+
+.menu{
+    width: 1000px;
+    border: 1px solid #005591;
+    margin: 0 auto;
+
+ 
+}
+
+.menu1{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 166px 175px 183px 301px 107px;
+    grid-template-rows: 19px auto;
+    row-gap: 12px;
+}
+.menustr{
+ 
+ 
+    color:#FFFFFF ;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+.menutext{
+  
+    color:#FFFFFF ;
+    line-height: 2;
+    font-size: 10px;  
+}
+
+img{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+}
+

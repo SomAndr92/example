@@ -78,19 +78,70 @@ justify-content: space-between;
 align-content: space-between;
 }
 
-@media (max-width: 310px){
-.predlog{
-    height: 500px;
+.predlog1{
+    height: 350px;
 display: grid;
-grid-template-columns: repeat(2, 30%);
+grid-template-columns: repeat(3, 30%);
 row-gap:  10%;
 justify-content: space-between;
+align-content: space-between;
+}
+
+@media (max-width: 1200px){
+.predlog1{
+    height: 600px;
+display: grid;
+grid-template-columns: repeat(1, 30%);
+column-gap: 5%;
+row-gap:  40px;
+justify-content: space-evenly;
+align-content: space-between;
+}}
+
+@media (max-width: 900px){
+    .predlog1{
+        height: 600px;
+    display: grid;
+    grid-template-columns: repeat(1, 30%);
+    column-gap: 5%;
+    row-gap:  40px;
+    justify-content: start;
+    align-content: space-between;
+    }}
+
+@media (max-width: 1200px){
+.predlog{
+    height: 550px;
+display: grid;
+grid-template-columns: repeat(2, 30%);
+column-gap: 5%;
+row-gap:  10%;
+justify-content: space-evenly;
 align-content: space-between;}
 }
 
-.box{
-    border: 1px solid rgb(212, 26, 26);
-   
+@media (max-width: 1100px){
+    .predlog{
+        height: 1120px;
+    display: grid;
+    grid-template-columns: repeat(1, 30%);
+    column-gap: 5%;
+    row-gap:  40px;
+    justify-content: space-evenly;
+    align-content: space-between;}
+    }
+ @media (max-width: 900px){
+        .predlog{
+            height: 1120px;
+        display: grid;
+        grid-template-columns: repeat(1, 30%);
+        column-gap: 5%;
+        row-gap:  40px;
+        justify-content: start;
+        align-content: space-between;}
+        }   
+
+.box{  
 width: 300px;
 height: 150px;
 border-radius: 20px;
@@ -110,19 +161,31 @@ button{
     justify-content: center;
 }
 
+@media (max-width: 900px){
+.but{
+    display: flex;
+    justify-content: start;
+}}
+
 .stroka{
     height: max-content;    
 }
 
 
 .down{
-
     margin-top: 80px;
     background: #DFE2E9;
     width: 1440px;
     height: 340px;
 
 }
+
+@media (max-width: 1200px){
+.down{
+    height: 680px;
+
+}}
+
 
 .servic{
     width: 1000px;
